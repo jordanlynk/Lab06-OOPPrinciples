@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab6_7
 {
+    /// <summary>
+    /// Abstract derived from Animal
+    /// </summary>
     public abstract class Mammal : Animal
     {
         public string typeOfFur { get; set; }
@@ -17,6 +20,7 @@ namespace Lab6_7
         {
             Console.WriteLine("Rolling around, making some fun");
         }
+       
         public virtual void Play()
         {
             Console.WriteLine("Playing in the sun, soaking up the fun..something like that");

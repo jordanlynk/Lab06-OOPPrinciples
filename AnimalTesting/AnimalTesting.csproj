@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lab6-7\Lab6-7.csproj" />
+  </ItemGroup>
+
 </Project>

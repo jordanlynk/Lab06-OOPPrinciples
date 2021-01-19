@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab6_7
 {
+    /// <summary>
+    /// Base Abstract Class
+    /// </summary>
     public abstract class Animal
     {
         public bool isBreathing { get; set; }
@@ -17,6 +20,11 @@ namespace Lab6_7
         public abstract void Sleep();
         public abstract void Sound();
 
+
+        public Animal()
+        {
+            isBreathing = false;
+        }
 
     }
 }
