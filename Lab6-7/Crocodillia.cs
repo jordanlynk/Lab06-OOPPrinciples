@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lab6_7
 {
-    public abstract class Crocodillia
+    public abstract class Crocodillia : Reptile
     {
         public string Size { get; set; }
         public string Snout { get; set; }

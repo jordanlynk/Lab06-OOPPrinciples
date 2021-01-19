@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lab6_7
 {
-    class Crocodile : Reptile
+    class Crocodile : Crocodillia
     {
         public override string Color { get; set; }
         public override int Age { get; set; }

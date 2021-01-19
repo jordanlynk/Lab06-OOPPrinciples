@@ -1,5 +1,3 @@
-using System;
-using Xunit;
 using Lab6_7;
 
 namespace AnimalTesting

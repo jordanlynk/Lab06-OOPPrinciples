@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Lab6_7
+﻿namespace Lab6_7
 {
     /// <summary>
     /// Base Abstract Class

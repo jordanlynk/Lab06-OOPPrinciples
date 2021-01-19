@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lab6_7
 {
@@ -20,7 +18,7 @@ namespace Lab6_7
         {
             Console.WriteLine("Rolling around, making some fun");
         }
-       
+
         public virtual void Play()
         {
             Console.WriteLine("Playing in the sun, soaking up the fun..something like that");
