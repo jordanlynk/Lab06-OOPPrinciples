@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Interfaces;
 
 namespace Lab6_7
 {
-    public class Otter : Carnivore
+    public class Otter : Carnivore, ISwimmingly
     {
         public string WaterType { get; set; }
         public override string Color { get; set; }
         public override int Age { get; set; }
+        public int Speed { get; set; }
 
         public override void Eat()
         {

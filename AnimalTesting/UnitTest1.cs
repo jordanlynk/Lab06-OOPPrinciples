@@ -104,7 +104,19 @@ namespace AnimalTesting
             Assert.Equal(5, grogu.Age);
 
         }
+        [Fact]
+        public void Tests_All_Referenced_Classes_Utilize_Interface_ICreep()
+        {
+            Constrictor grogu = new Constrictor();
+            Cobra kaa = new Cobra();
+            Crocodile ally = new Crocodile();
+            Alligator crocky = new Alligator();
+            Assert.Equal("I'm a constrictor, slowly uncoiling.", grogu.Lurk());
+            Assert.Equal("Creeping, lurking in the ssssshadowsss", kaa.Lurk());
+            Assert.Equal("I'm a croc, and I creep.", ally.Lurk());
+            Assert.Equal("Lurking...creeping in the shadows", crocky.Lurk());
 
+        }
 
     }
 }
