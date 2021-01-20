@@ -16,12 +16,12 @@ namespace Lab6_7
 
         public override void Play()
         {
-            Console.WriteLine("I love to play with my other red panda frens");
+            Console.WriteLine("I love to play with my other red panda friends");
         }
 
         public override void Sleep()
         {
-            Console.WriteLine("I am a lazy sob and love napping");
+            Console.WriteLine("I am a lazy s-o-b and love napping");
         }
 
         public override void Sound()

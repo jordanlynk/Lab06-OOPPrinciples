@@ -9,11 +9,11 @@ namespace Lab6_7
     /// </summary>
     public abstract class Animal
     {
-        public bool isBreathing { get; set; }
+        public bool IsBreathing { get; set; }
         public virtual string Color { get; set; }
-        public virtual int Age { get; set; }
-        public int numberOfLegs { get; set; }
-        public bool nocturnal { get; set; }
+        public virtual int Age { get; set; } = 5;
+        public int NumberOfLegs { get; set; }
+        public bool Nocturnal { get; set; }
 
         // Setting up our methods here 
         public abstract void Eat();
@@ -23,7 +23,7 @@ namespace Lab6_7
 
         public Animal()
         {
-            isBreathing = false;
+            IsBreathing = false;
         }
 
     }

@@ -6,7 +6,7 @@ namespace Lab6_7
 {
     public class Otter : Carnivore
     {
-        public string waterType { get; set; }
+        public string WaterType { get; set; }
         public override string Color { get; set; }
         public override int Age { get; set; }
 
