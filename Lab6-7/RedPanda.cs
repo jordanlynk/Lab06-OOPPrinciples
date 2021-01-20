@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Interfaces;
 
 namespace Lab6_7
 {
-    public class RedPanda : Mammal
+    public class RedPanda : Mammal, ISwimmingly
     {
         public override string Color { get; set; }
         public override int Age { get; set; }
+        public int Speed { get; set; }
 
         public override void Eat()
         {

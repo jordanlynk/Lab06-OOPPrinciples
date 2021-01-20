@@ -7,6 +7,7 @@ namespace Lab6_7
         static void Main(string[] args)
         {
             Crocodile smackey = new Crocodile();
+            
             smackey.IsBreathing = true;
 
             Rhino smokey = new Rhino();
