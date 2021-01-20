@@ -6,7 +6,12 @@ namespace Lab6_7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Crocodile smackey = new Crocodile();
+            smackey.IsBreathing = true;
+
+            Rhino smokey = new Rhino();
+            smokey.Nocturnal = true;
+            
         }
     }
 }

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Lab6_7
 {
-    class Crocodile : Reptile
+    public class Crocodile : Crocodilia
     {
-        public override string Color { get; set; }
-        public override int Age { get; set; }
+        public override string Color { get; set; }        
+        public override int AverageEggsLaid { get; set; }
 
         public override void Bask()
         {

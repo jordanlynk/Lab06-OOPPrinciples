@@ -6,7 +6,7 @@ namespace Lab6_7
 {
     public class Wolf : Carnivore
     {
-        public string typeOf { get; set; }
+        public string TypeOf { get; set; }
 
         public override void Eat() => Console.WriteLine("Woah, is this deer gourmet?");
         public override void Sleep() => Console.WriteLine("I love to nap in the sun");

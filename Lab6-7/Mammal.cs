@@ -9,12 +9,14 @@ namespace Lab6_7
     /// </summary>
     public abstract class Mammal : Animal
     {
-        public string typeOfFur { get; set; }
-        public bool nocturnal { get; set; }
+        public string TypeOfFur { get; set; } = "Smooth";
+        
 
-        public void Scratch()
+        public string Scratch()
         {
-            Console.WriteLine("Feels so good! Mammals love to be scratched");
+            string output = "Feels so good! Mammals love to be scratched";
+            Console.WriteLine(output);
+            return output;
         }
         public void Roll()
         {

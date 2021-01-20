@@ -10,7 +10,7 @@ namespace Lab6_7
     /// </summary>
     public abstract class Reptile : Animal
     {
-        public int numEggs { get; set; }
+        public int numEggs { get; set; } = 10;
         public int numTeeth { get; set; }
         public string scalePattern { get; set; }
         public bool livesInWater { get; set; }

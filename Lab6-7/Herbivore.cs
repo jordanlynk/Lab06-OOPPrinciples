@@ -9,8 +9,8 @@ namespace Lab6_7
     /// </summary>
     public abstract class Herbivore : Mammal
     {
-        public string typeOfPlantsConsumed { get; set; }
-        public string size { get; set; }
+        public string TypeOfPlantsConsumed { get; set; }
+        public string Size { get; set; }
 
         public abstract void Graze();
     }

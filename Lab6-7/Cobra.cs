@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Lab6_7
 {
-    public class Cobra : Reptile
+    public class Cobra : Snakes
     {
         public override string Color { get; set; }
-        public override int Age { get; set; }
+        
 
         public override void Bask()
         {
