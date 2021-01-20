@@ -11,3 +11,16 @@ C:\Users\zanyg\Documents\codefellows\401\Lab06-OOPPrinciples\Lab6-7\obj\Debug\ne
 C:\Users\zanyg\Documents\codefellows\401\Lab06-OOPPrinciples\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.dll
 C:\Users\zanyg\Documents\codefellows\401\Lab06-OOPPrinciples\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.pdb
 C:\Users\zanyg\Documents\codefellows\401\Lab06-OOPPrinciples\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.genruntimeconfig.cache
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.csprojAssemblyReference.cache
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.AssemblyInfoInputs.cache
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.AssemblyInfo.cs
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.csproj.CoreCompileInputs.cache
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.dll
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.pdb
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.exe
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.deps.json
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.runtimeconfig.json
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.runtimeconfig.dev.json
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.dll
+E:\CodeFellows\401\Lab6-7\Lab6-7\bin\Debug\netcoreapp3.1\Lab6-7.pdb
+E:\CodeFellows\401\Lab6-7\Lab6-7\obj\Debug\netcoreapp3.1\Lab6-7.genruntimeconfig.cache

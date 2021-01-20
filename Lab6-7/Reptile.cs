@@ -15,6 +15,9 @@ namespace Lab6_7
         public string scalePattern { get; set; }
         public bool livesInWater { get; set; }
 
+        /// <summary>
+        /// This class can be overloaded for all classes that inherit Reptile.
+        /// </summary>
         public virtual void Bask()
         {
             Console.WriteLine("Just chilling in the sun..ya");

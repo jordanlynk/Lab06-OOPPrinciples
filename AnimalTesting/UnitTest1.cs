@@ -6,45 +6,41 @@ namespace AnimalTesting
 {
     public class UnitTest1
     {
-        /// <summary>
-        /// Testing to ensure values are inherited on the concrete class from the abstract base class: Animal
-        /// </summary>
+        
         [Fact]
         public void Tests_If_Animal_Properties_Are_Inherited_To_Wolf()
         {
             Wolf wolf = new Wolf();
-            wolf.Age = 14;
+          
 
-
-            Assert.Equal(14, wolf.Age);
+            //Inherited from Animal
+            Assert.Equal(5, wolf.Age);
+            //Inherited from Animal
             Assert.False(wolf.IsBreathing);
         }
         [Fact]
         public void Tests_If_Animal_Properties_Are_Inherited_To_RedPanda()
         {
+           
             RedPanda booboo = new RedPanda();
-            booboo.Age = 5;
-
-
+            //Inherited from Animal
             Assert.Equal(5, booboo.Age);
+            //Inherited from Animal
             Assert.False(booboo.IsBreathing);
         }
-        /// <summary>
-        /// We are testing to determine if default values are inherited from Mammal down to otter
-        /// </summary>
+        
         [Fact]
         public void Tests_If_Animal_Properties_Are_Inherited_To_Otter()
         {
             Otter gladius = new Otter();
 
-
+            //Inherited from Mammal
             Assert.Equal("Smooth", gladius.TypeOfFur);
+            //Inherited from Mammal
             Assert.Equal("Feels so good! Mammals love to be scratched", gladius.Scratch());
 
         }
-        /// <summary>
-        /// Testing to determine if values are properly inherited to Rhino Class
-        /// </summary>
+        
         [Fact]
         public void Tests_If_Animal_Properties_Are_Inherited_To_Rhino()
         {
@@ -56,9 +52,7 @@ namespace AnimalTesting
             Assert.Equal("Feels so good! Mammals love to be scratched", turkey.Scratch());
 
         }
-        /// <summary>
-        /// Testing to determine if values are properly inherited to Alligator Class
-        /// </summary>
+        
         [Fact]
         public void Tests_If_Animal_Properties_Are_Inherited_To_Alligator()
         {
@@ -104,6 +98,9 @@ namespace AnimalTesting
             Assert.Equal(5, grogu.Age);
 
         }
+        /// <summary>
+        /// Ensures that all the Classes appropriate classes implement the ICreep interface
+        /// </summary>
         [Fact]
         public void Tests_All_Referenced_Classes_Utilize_Interface_ICreep()
         {
@@ -117,6 +114,34 @@ namespace AnimalTesting
             Assert.Equal("Lurking...creeping in the shadows", crocky.Lurk());
 
         }
+        /// <summary>
+        /// Ensures that all the Classes appropriate classes implement the ISwimmingly interface
+        /// </summary>
+        [Fact]
+        public void Tests_All_Referenced_Classes_Utilize_Interface_ISwimmingly()
+        {
+            //
+            Alligator crocky = new Alligator();
+            Cobra kaa = new Cobra();
+            Constrictor grogu = new Constrictor();
+            Crocodile ally = new Crocodile();
+            Otter otto = new Otter();
+            RedPanda bigRed = new RedPanda();
+            Rhino rambi = new Rhino();
+            Wolf balto = new Wolf();
+
+            // This calls the Swim method and compares the expected output.
+            Assert.Equal("I do myself a favor and go for a little swim.", crocky.Swim());
+            Assert.Equal("I usually don't swwwwim unless it's a hot day", kaa.Swim());
+            Assert.Equal("Taking a dip in the river, who knowsss", grogu.Swim());
+            Assert.Equal("Aren't I always?", ally.Swim());
+            Assert.Equal("I like swimming on my back while holding hands", otto.Swim());
+            Assert.Equal("Ooh, just a small kids pool will do for me.", bigRed.Swim());
+            Assert.Equal("I like swimming, although people mistake my horn for a fin..", rambi.Swim());
+            Assert.Equal("Me and my wolf boys like to take a swim to show the ladies how its done", balto.Swim());
+
+        }
+
 
     }
 }
