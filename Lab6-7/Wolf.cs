@@ -9,6 +9,9 @@ namespace Lab6_7
     {
         public string TypeOf { get; set; }
         public int Speed { get; set; }
+        public override bool Hibernates { get; set; }
+
+
         //From abstract method in Animal
         public override void Eat() => Console.WriteLine("Woah, is this deer gourmet?");
         //From abstract method in Animal

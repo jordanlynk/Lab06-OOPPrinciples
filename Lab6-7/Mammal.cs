@@ -10,6 +10,7 @@ namespace Lab6_7
     public abstract class Mammal : Animal
     {
         public string TypeOfFur { get; set; } = "Smooth";
+
         
 
         public string Scratch()
