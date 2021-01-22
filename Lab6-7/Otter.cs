@@ -11,7 +11,9 @@ namespace Lab6_7
         public override string Color { get; set; }
         public override int Age { get; set; }
         public int Speed { get; set; }
-        
+        public override bool Hibernates { get; set; }
+
+
         //From abstract method in Animal
         public override void Eat()
         {

@@ -9,7 +9,7 @@ namespace Lab6_7
     /// </summary>
     public abstract class Carnivore : Mammal
     {
-        public bool Hibernates { get; set; }
+        public abstract bool Hibernates { get; set; }
         /// <summary>
         /// Play overrides virtual play from class, Mammals
         /// </summary>
